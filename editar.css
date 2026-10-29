@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0eff5;
+    color: #252525;
+    padding: 40px 20px;
+}
+
+main {
+    max-width: 490px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border: 2px solid #ceced9;
+    border-radius: 10px;
+}
+
+.voltar {
+    display: inline-block;
+    color: #5b55e7;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    height: 41px;
+    padding: 8px 10px;
+    border: 2px solid #bdbdca;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #5b55e7;
+}
+
+#botaoSalvar {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #5b55d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#botaoSalvar:hover {
+    background-color: #4540bc;
+}
+
+@media (max-width: 500px) {
+    main {
+        padding: 22px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
